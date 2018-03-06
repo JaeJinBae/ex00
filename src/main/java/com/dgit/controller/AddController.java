@@ -20,10 +20,10 @@ public class AddController {
 	}
 	
 	@RequestMapping(value="add", method=RequestMethod.POST)
-	public String postAdd(@ModelAttribute("num1") double num1,@ModelAttribute("num2") double num2, Model model){
+	public String postAdd(@ModelAttribute("num1") double num1, @ModelAttribute("num2") double num2, Model model){
 		logger.info("add post");
 		double rs=num1+num2;
-		model.addAttribute(rs);
+		model.addAttribute("rs",rs);	
 		
 		return "addResult";
 	}
