@@ -14,5 +14,5 @@ public class BootExController {
 	public String test1(){
 		logger.info("test1");
 		return "03_06example";
-	}
+	} 
 }
