@@ -12,6 +12,5 @@
 		<p>숫자2: <input type="text" name="num2"></p>
 		<input type="submit" value="결과">
 	</form>
-	
 </body>
 </html>
